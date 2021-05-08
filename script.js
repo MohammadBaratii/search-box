@@ -10,6 +10,7 @@ container.addEventListener("mouseover", () => {
   inp.style.width = "20rem";
   inp.style.marginRight = "2rem";
   inp.style.padding = "1rem 0 1rem 1rem";
+  inp.focus();
 });
 section.addEventListener("click", () => {
   inp.style.width = "0rem";
